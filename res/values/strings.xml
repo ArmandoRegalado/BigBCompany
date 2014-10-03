@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Compartamos Demo</string>
+    <string name="hello_world">¡Hola Mundo!</string>
+    <string name="cont_noti">¡Hola Mundo!</string>
+    <string name="title_activity_act_usuario">Mi Información</string>
+    <string name="title_activity_act_noticias">Noticias</string>
+    <string name="title_activity_act_contactos">Contactos</string>
+    <string name="title_activity_act_encuestas">Encuestas</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_usuario">Mi perfil</string>
+    <string name="action_noticias">Noticias</string>
+    <string name="action_contactos">Contactos</string>
+    <string name="action_encuestas">Encuestas</string>
+    <string name="title_activity_act_mensajes">ActMensajes</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="bienvenida">Bienvenido a Compartamos.</string>
+    <string name="title_activity_act_desc_noticias">ActDescNoticias</string>
+    <string name="title_activity_act_desc_noticia">ActDescNoticia</string>
+    <string name="title_activity_act_desc_encuenta">ActDescEncuenta</string>
+
+</resources>

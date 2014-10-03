@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nef.naitineityfor.bigbcompany.ActMensajes" >
+
+  	<EditText
+ 	    android:id="@+id/editText_mensaje"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+        android:ems="10"
+ 	    android:inputType="textMultiLine" >
+ 	    <requestFocus />
+ 	</EditText>
+  
+    <Button
+   	    android:id="@+id/button_enviar"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignTop="@+id/editText_mensaje"
+   	    android:layout_toRightOf="@+id/editText_mensaje"
+   	    android:text="Enviar"
+   	    android:onClick="enviarMensaje"  />
+    
+   	<ListView android:id="@+id/mensajesListView"
+    	android:layout_width="wrap_content"   
+      	android:layout_height="wrap_content"
+      	android:layout_below="@+id/button_enviar" >  
+   	</ListView>
+
+</RelativeLayout>

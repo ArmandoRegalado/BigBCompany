@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nef.naityeityfor.bigbcompany"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.ActInicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.ActUsuario"
+            android:label="@string/title_activity_act_usuario"
+            android:parentActivityName="nef.naitineityfor.bigbcompany.ActInicio"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nef.naityeityfor.bigbcompany.ActInicio" />
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.ActNoticias"
+            android:label="@string/title_activity_act_noticias"
+            android:parentActivityName="nef.naitineityfor.bigbcompany.ActUsuario"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nef.naityeityfor.bigbcompany.ActInicio" />
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.ActContactos"
+            android:label="@string/title_activity_act_contactos"
+            android:parentActivityName="nef.naitineityfor.bigbcompany.ActUsuario"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nef.naityeityfor.bigbcompany.ActInicio" />
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.ActEncuestas"
+            android:label="@string/title_activity_act_encuestas"
+            android:parentActivityName="nef.naitineityfor.bigbcompany.ActUsuario"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nef.naityeityfor.bigbcompany.ActInicio" />
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.ActMensajes"
+            android:label="@string/title_activity_act_mensajes"
+            android:parentActivityName="nef.naitineityfor.bigbcompany.ActContactos" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nef.naitineityfor.bigbcompany.ActContactos" />
+        </activity>
+        <activity
+            android:name=".ActDescNoticias"
+            android:label="@string/title_activity_act_desc_noticias" >
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.desc.ActDescNoticia"
+            android:label="@string/title_activity_act_desc_noticia" >
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.desc.ActDescNoticia"
+            android:label="@string/title_activity_act_desc_noticia" >
+        </activity>
+        <activity
+            android:name="nef.naitineityfor.bigbcompany.desc.ActDescEncuesta"
+            android:label="@string/title_activity_act_desc_encuenta" >
+        </activity>
+    </application>
+
+</manifest>

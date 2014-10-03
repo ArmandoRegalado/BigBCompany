@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView_encuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/encuesta" />
+
+ 	<TextView
+ 	    android:id="@+id/descripcion_enc"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignBottom="@+id/imageView_encuesta"
+ 	    android:layout_alignLeft="@+id/titulo_enc"
+ 	    android:layout_marginBottom="14dp"
+ 	    android:layout_marginLeft="15dp"
+ 	    android:text="descripcion_enc" />
+
+ 	<TextView
+ 	    android:id="@+id/titulo_enc"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_above="@+id/descripcion_enc"
+ 	    android:layout_marginLeft="15dp"
+ 	    android:layout_toRightOf="@+id/imageView_encuesta"
+ 	    android:text="titulo_enc" />
+
+</RelativeLayout>

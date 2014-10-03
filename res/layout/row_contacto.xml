@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView_contacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bbiwy" />
+
+   	<TextView
+   	    android:id="@+id/email_contacto"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_alignBottom="@+id/imageView_contacto"
+   	    android:layout_alignLeft="@+id/nombre_contacto"
+   	    android:text="email_contacto" />
+
+   	<TextView
+   	    android:id="@+id/nombre_contacto"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_above="@+id/email_contacto"
+   	    android:layout_marginLeft="14dp"
+   	    android:layout_toRightOf="@+id/imageView_contacto"
+   	    android:text="nombre_contacto" />
+
+</RelativeLayout>
